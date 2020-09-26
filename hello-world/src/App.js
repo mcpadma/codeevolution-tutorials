@@ -6,6 +6,9 @@ import Greet from "./components/functional components/greet";
 import Welcome from "./components/class components/welcome";
 import Message from "./components/class components/message";
 import Counter from "./components/class components/counter";
+import FunctionClick from "./components/FunctionClick";
+import ClassClick from "./components/ClassClick";
+import EventBind from "./components/EventBind";
 
 // function App() {
 //   return (
@@ -26,12 +29,15 @@ import Counter from "./components/class components/counter";
 
 class App extends React.Component {
   render() {
-    return(
+    return (
       <div className="App">
-      <Message />
-      <Counter />
+        <Message />
+        <Counter />
+        <FunctionClick />
+        <ClassClick />
+        <EventBind />
       </div>
-    )
+    );
   }
 }
 
